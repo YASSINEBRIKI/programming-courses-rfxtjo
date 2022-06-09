@@ -14,4 +14,4 @@ if (age >= 15 && age <= 21) {
 }
 if (age > 22) {
   console.log('رجل ');
-}
+} 
