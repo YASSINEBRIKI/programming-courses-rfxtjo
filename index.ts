@@ -3,7 +3,9 @@
 //###########################   Programming Courses  ###################
 //######################################################################
 let age: number;
+let nnn: number;
 age = parseInt(prompt('entrez votre age'));
+nnn = parseInt(prompt('اذا كان شعرك طويل ادخل 1واذا كان شعرك قصير ادخل2ر '));
 if (age == 1 || age == 2) {
   console.log('رضيع');
 } else if (age >= 3 && age <= 14) {
@@ -11,7 +13,12 @@ if (age == 1 || age == 2) {
 }
 if (age >= 15 && age <= 21) {
   console.log('شاب ');
-}
-if (age > 22) {
+} else if (age >= 22 && age <= 100) {
   console.log('رجل ');
-} 
+}
+if (age >= 100) {
+  console.log('ميت ميت ميت انه ميت ');
+}
+  else if   ((nnn = 2)) {
+  console.log('انت ذكر ');
+}
