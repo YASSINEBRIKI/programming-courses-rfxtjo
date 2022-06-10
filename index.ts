@@ -21,4 +21,7 @@ if (age >= 100) {
 }
   else if   ((nnn = 2)) {
   console.log('انت ذكر ');
+  }
+else if   ((nnn = 1)) {
+  console.log('انت انثى ر ');
 }
