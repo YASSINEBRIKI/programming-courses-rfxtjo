@@ -19,9 +19,8 @@ if (age >= 15 && age <= 21) {
 if (age >= 100) {
   console.log('ميت ميت ميت انه ميت ');
 }
-  else if   ((nnn = 2)) {
+   if   (nnn = 2) {
   console.log('انت ذكر ');
   }
-else if   ((nnn = 1)) {
-  console.log('انت انثى ر ');
+else if (nnn = 1)   { console.log('انت انثى ر ');
 }
